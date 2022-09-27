@@ -1,8 +1,9 @@
 # King of fools
 
+- yarn
 - yarn hh:build
-- yarn hh:test
 - yarn typechain:build
+- yarn hh:test
 - yarn hh:deploy:testnet
 - yarn king
 
