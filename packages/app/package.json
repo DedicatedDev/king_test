@@ -1,0 +1,38 @@
+{
+  "name": "king",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@rainbow-me/rainbowkit": "^0.6.1",
+    "ethers": "^5.0.0",
+    "next": "^12.1.6",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "next-auth": "^4.12.0",
+    "wagmi": "^0.6.0",
+    "dotenv": "^16.0.0",
+    "classnames": "^2.3.1",
+    "react-modal": "^3.15.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.35",
+    "@types/react": "^18.0.9",
+    "autoprefixer": "^10.4.12",
+    "eslint": "^8.15.0",
+    "eslint-config-next": "^12.1.6",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.7.2",
+    "@types/react-modal": "^3.13.1",
+    "react-modal-hook": "^3.0.0"
+  },
+  "peerDependencies": {
+    "@king/contracts-typechain": "*"
+  }
+}
